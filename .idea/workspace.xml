@@ -4,7 +4,11 @@
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
     <list default="true" id="c2493bda-80f4-421b-9d6d-a7e23ded360e" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change beforePath="$PROJECT_DIR$/app/helpers.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/helpers.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
 =======
     <list default="true" id="c2493bda-80f4-421b-9d6d-a7e23ded360e" name="Default Changelist" comment="" />
@@ -24,6 +28,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< Updated upstream
       <file leaf-file-name="Origin.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Origin.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -193,10 +198,18 @@
             <state relative-caret-position="210">
               <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
 >>>>>>> origin/master
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Model/Post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
       <file pinned="false" current-in-tab="false">
@@ -235,6 +248,13 @@
                 <element signature="e#45#68#0#PHP" expanded="true" />
               </folding>
 >>>>>>> origin/master
+=======
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -476,6 +496,7 @@
               <item name="Http" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
+<<<<<<< Updated upstream
               <item name="morvaridbeauty_laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="morvaridbeauty_laravel" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
@@ -516,17 +537,22 @@
             <path>
               <item name="morvaridbeauty_laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="morvaridbeauty_laravel" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="morvaridbeauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="morvaridbeauty" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="morvaridbeauty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="morvaridbeauty" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="morvaridbeauty_laravel" type="b2602c69:ProjectViewProjectNode" />
               <item name="morvaridbeauty_laravel" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="post" type="462c0819:PsiDirectoryNode" />
             </path>
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -562,10 +588,15 @@
     <property name="SearchEverywhereHistoryKey" value="api&#9;FILE&#9;file:///Applications/MAMP/htdocs/morvaridbeauty_laravel/routes/api.php&#10;we&#9;FILE&#9;file:///Applications/MAMP/htdocs/morvaridbeauty_laravel/routes/web.php&#10;side&#9;FILE&#9;file:///Applications/MAMP/htdocs/morvaridbeauty_laravel/resources/views/layouts/sidebar.blade.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="editor.config.ad.shown" value="true" />
+<<<<<<< Updated upstream
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+=======
+    <property name="last_opened_file_path" value="C:/morvaridbeauty" />
+>>>>>>> Stashed changes
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -613,6 +644,7 @@
       <workItem from="1570529085008" duration="9808000" />
       <workItem from="1570601896597" duration="20406000" />
       <workItem from="1570861936196" duration="19270000" />
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 =======
@@ -621,10 +653,14 @@
 =======
       <workItem from="1570896698896" duration="11806000" />
 >>>>>>> origin/master
+=======
+      <workItem from="1570948635565" duration="18000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
@@ -648,6 +684,14 @@
     <layout>
 <<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16364606" />
+=======
+    <option name="totallyTimeSpent" value="49975000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16684435" />
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -694,6 +738,7 @@
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.2611051" />
+<<<<<<< Updated upstream
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -705,6 +750,13 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
 >>>>>>> origin/master
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49946696" visible="true" weight="0.2611051" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+>>>>>>> Stashed changes
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -987,10 +1039,16 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/User/UserController.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Requests/CreateSliderRequest.php">
+=======
+    <entry file="file://$USER_HOME$/Desktop/bootstrap-tags-i-nput/dist/style.css" />
+    <entry file="file://$USER_HOME$/Desktop/bootstrap-tags-i-nput/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -1023,10 +1081,15 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/VerifyCsrfToken.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/Http/Middleware/TrustProxies.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
+=======
+    <entry file="file://$PROJECT_DIR$/public/error.txt" />
+    <entry file="file://$PROJECT_DIR$/app/Model/Meta.php">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="5" column="68" selection-start-line="5" selection-start-column="68" selection-end-line="5" selection-end-column="68" />
@@ -1077,6 +1140,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/resources/views/user/post/table.blade.php">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -1137,6 +1201,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
+=======
+    <entry file="file://$PROJECT_DIR$/app/Http/Requests/PostRequest.php" />
+    <entry file="file://$PROJECT_DIR$/resources/views/user/post/new.blade.php">
+>>>>>>> Stashed changes
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
 <<<<<<< Updated upstream
@@ -1229,6 +1297,20 @@
         <state relative-caret-position="135">
           <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
 >>>>>>> origin/master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Model/Post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>

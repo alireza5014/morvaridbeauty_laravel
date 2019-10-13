@@ -15,7 +15,11 @@
         </td>
         <td>{{$post->title}}</td>
         <td>{{$post->abstract}}   </td>
-
+<td>
+    @foreach($post->metas as $meta)
+<code dir="ltr">{{$meta->key." : ".$meta->value }}</code><br/>
+        @endforeach
+</td>
         <td>
             <ul class="d-flex justify-content-center">
                 <li class="mr-3">

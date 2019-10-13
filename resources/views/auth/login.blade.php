@@ -10,6 +10,7 @@
         <div class="wrap-login100">
             <form class="login100-form validate-form" action="{{ route('login') }}" method="POST">
                 @csrf
+
                 <div class="login-form-body text-center p-4">
                     <img src="{{url('gelr/images/logo-login.svg')}}" class="mb-5" alt="Logo">
                     <div class="form-gp">

@@ -2,7 +2,7 @@
 <html class="no-js" lang="zxx">
 
 <head>
-    <meta name="csrf-token" content="{{csrf_token()}}">
+{{--    <meta name="csrf-token" content="{{csrf_token()}}">--}}
     <script src="{{url('gelr/js/jquery.min.js')}}"></script>
 
     @include('layouts.head')

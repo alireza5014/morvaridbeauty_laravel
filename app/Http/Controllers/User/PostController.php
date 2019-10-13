@@ -24,38 +24,37 @@ class PostController extends Controller
             ->with('category')
             ->orderBy('id', 'DESC');
 
-
-        if ($category_id) {
+         if ($category_id) {
             $posts = $posts->where('category_id', $category_id)
-
                 ->whereHas('category', function ($q) use ($category_id) {
                     return $q->where('id', $category_id);
                 });
         }
-         $posts = $posts->paginate(20);
+        $posts = $posts->paginate(20);
+
 
 
         if ($request->ajax()) {
             try {
-                return view('user.post.table', compact('posts'))->render();
+                return view('user.post.table', compact('posts', 'metas'))->render();
             } catch (\Throwable $e) {
             }
         }
-        return view('user.post.list', compact('posts'));
+        return view('user.post.list', compact('posts', 'metas'));
     }
 
     public function new()
     {
 
-        $categories=Category::get();
+        $categories = Category::get();
 
-        return view('user.post.new',compact('categories'));
+        return view('user.post.new', compact('categories'));
 
     }
 
     public function edit($id)
     {
-        $categories=Category::get();
+        $categories = Category::get();
 
         $post = Post::where('user_id', getUser('id'))->with(['metas' => function ($q) {
             return $q->select('post_id', 'key', 'value');
@@ -66,7 +65,7 @@ class PostController extends Controller
             $meta[$_meta->key] = $_meta->value;
         }
 
-        return view('user.post.edit', compact('post', 'meta','categories'));
+        return view('user.post.edit', compact('post', 'meta', 'categories'));
 
     }
 
