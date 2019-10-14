@@ -1,0 +1,38 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+    <url>
+        <loc>https://www.morvaridbeauty.ir/</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.morvaridbeauty.ir/#/device</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.morvaridbeauty.ir/#/price</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+
+
+    <url>
+        <loc>https://www.morvaridbeauty.ir/#/service</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.morvaridbeauty.ir/#/blog</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+   <url>
+        <loc>https://www.morvaridbeauty.ir/#/about_us</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+    <url>
+        <loc>https://www.morvaridbeauty.ir/#/contact_us</loc>
+        <lastmod>2019-10-14T10:03:35+00:00</lastmod>
+    </url>
+
+
+
+</urlset>

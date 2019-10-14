@@ -36,11 +36,11 @@ class PostController extends Controller
 
         if ($request->ajax()) {
             try {
-                return view('user.post.table', compact('posts', 'metas'))->render();
+                return view('user.post.table', compact('posts'))->render();
             } catch (\Throwable $e) {
             }
         }
-        return view('user.post.list', compact('posts', 'metas'));
+        return view('user.post.list', compact('posts'));
     }
 
     public function new()
@@ -137,6 +137,7 @@ class PostController extends Controller
             ]));
 
 
+
             Meta::where('post_id', $request->id)->where('key', "keywords")->update([
 
                 'value' => $request->keywords
@@ -147,7 +148,7 @@ class PostController extends Controller
             ]);
 
         } catch (Exception $exception) {
-            return response()->json(['status' => $exception->getMessage()]);
+             return response()->json(['status' => $exception->getMessage()]);
 
         }
         return response()->json(['status' => 1]);
