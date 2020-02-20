@@ -1,0 +1,659 @@
+/*
+
+** theme css update file - if you want to customize theme use this file to avoid being affected by updates.
+
+-- General
+-- hero
+-- WPBakery customizations
+
+
+*/
+/* general */
+.open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* hero overlay */
+.breadcrumb-area {
+    position: relative;
+    z-index: 1;
+    background: #333;
+}
+
+.shadow-dark:after, .shadow-light:after, .shadow-custom:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.shadow-dark:after {
+    background: rgba(0, 0, 0, 0.5) none repeat scroll 0 0;
+}
+
+.shadow-light:after {
+    background: rgba(255, 255, 255, 0.5) none repeat scroll 0 0;
+}
+
+@media (min-width: 1024px) {
+    nav.navbar.bootsnav ul.nav>li.dropdown>a.dropdown-toggle::after {
+        content: "\f107";
+        margin-left: 5px;
+        margin-top: 2px;
+    }
+}
+
+@media (max-width: 1023px) {
+    nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
+        font-weight: 900;
+        content: "\f105";
+        float: right;
+        font-size: 16px;
+        margin-left: 10px;
+    }
+}
+
+.navbar.navbar-default.has-background .logo-display {
+    display: none;
+}
+
+ul.dropdown-menu.depth_1.animated {
+    margin-left: 11px;
+}
+
+/*  hero  */
+.error-page-area.text-center .nt-sidebar-inner-search .searchform {
+    margin: 0 auto;
+}
+
+.post-excerpt p:last-child {
+    margin-bottom: 0;
+}
+
+#nt-sidebar .sidebar-widget {
+    background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 30px;
+}
+
+#nt-sidebar .widget-title {
+    display: block;
+    font-weight: 700;
+    padding-bottom: 20px;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+#nt-sidebar .widget-title:before {
+    background: #4ac4f3 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 35px;
+    position: absolute;
+    width: 50px;
+}
+
+#nt-sidebar .widget-title:after {
+    background: #232323 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 2px;
+    left: 0px;
+    position: absolute;
+    width: 25px;
+}
+
+#nt-sidebar .nt-sidebar-inner-search form {
+    margin: 0;
+}
+
+#nt-sidebar .sidebar-widget:last-child {
+    margin-bottom: 0px;
+}
+
+.post-content p:last-child {
+    margin-bottom: 0;
+}
+
+.blog-area .info h3 {
+    font-weight: 600;
+    line-height: 1.4;
+    text-transform: capitalize;
+    max-width: 650px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+ol.commentlist {
+    padding-left: 0px;
+}
+
+.nt-page-template-content {
+    background: #ffffff none repeat scroll 0 0;
+    -moz-box-shadow: 0 0 10px #cccccc;
+    -webkit-box-shadow: 0 0 10px #cccccc;
+    -o-box-shadow: 0 0 10px #cccccc;
+    box-shadow: 0 0 10px #cccccc;
+    padding: 30px 30px 35px;
+}
+
+.page .comments-area {
+    margin: 80px auto 0px;
+}
+
+p.logged-in-as {
+    margin-bottom: -15px !important;
+}
+
+.blog-area .info p.comment-notes {
+    margin-bottom: 20px !important;
+}
+
+.blog-area .info .btn-theme.effect:hover {
+    color: #ffffff;
+}
+
+.blog-area .item .thumb:hover .post-type {
+    display: none;
+}
+
+.breadcrumb-area .breadcrumb li a:hover {
+    color: #4ac4f3;
+}
+
+.breadcrumb i {
+    color: #ffffff;
+}
+
+.form-submit input.submit-btn {
+    background-color: #4ac4f3;
+    border: 1px solid #4ac4f3;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 25px;
+    min-height: auto;
+    margin-top: 20px;
+    padding: 9px 35px;
+    text-transform: uppercase;
+    transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -ms-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.form-submit input.submit-btn:hover {
+    color: #ffffff;
+    background-color: #232323;
+    border: 1px solid #232323;
+}
+
+h4.comments-title, .comments-form .comment-reply-title {
+    border-bottom: 1px solid #e2e2e2;
+    font-weight: 600;
+    margin-bottom: 30px !important;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+.comments-info a.comment-reply:before {
+    content: "\f112";
+    font-size: 12px;
+    font-family: 'fontawesome';
+    margin-right: 10px;
+}
+
+li.comment #respond {
+    margin-top: 40px;
+}
+
+.blog-area .info .meta li a.post-edit-link, .comment-edit-link {
+    color: #333;
+    font-weight: 600;
+}
+
+.blog-area .info .meta li a.post-edit-link:hover {
+    color: #4ac4f3;
+}
+
+.comments-area, .blog-area.single .post-pagi-area {
+    margin: 50px 0 20px;
+}
+
+p.form-submit {
+    margin-bottom: 0px;
+}
+
+/* home hero banner area */
+.row.vc_row-o-equal-height, .row.vc_row-o-equal-height .nt-column, .row.vc_row-o-equal-height .nt-column-inner, .row.vc_row-o-equal-height .nt-wrapper {
+    height: 100%;
+}
+
+.clients-items .owl-item img {
+    width: auto;
+    margin: auto;
+    padding: 5px;
+}
+
+.companies-area .clients-items .owl-nav .owl-prev i, .companies-area .clients-items .owl-nav .owl-next i {
+    font-weight: 900;
+}
+
+.wpb-js-composer .vc_tta-container {
+    margin-bottom: 0 !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme .vc_tta-tabs-container {
+    display: block !important;
+    height: auto !important;
+    margin-bottom: 30px !important;
+    min-height: auto !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme li.vc_tta-tab {
+    display: inline-block !important;
+    float: none !important;
+    margin: 1px 3px 0px 3px !important;
+    margin-bottom: 10px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme .vc_tta-tab>a {
+    background: #edf5ff none repeat scroll 0 0 !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    border-radius: 30px !important;
+    border: none !important;
+    color: #232323 !important;
+    display: inline-block !important;
+    font-weight: 600 !important;
+    padding: 10px 40px !important;
+    text-transform: uppercase !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme .vc_tta-panel-body {
+    padding: 0px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme li.vc_active a {
+    background: #4ac4f3 none repeat scroll 0 0 !important;
+    color: #ffffff !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme .vc_tta-panel-heading {
+    display: none !important;
+}
+
+/* vc accordion tab */
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-panel-title>a {
+    background: #ffffff none repeat scroll 0 0;
+    display: block;
+    font-weight: 600;
+    padding: 20px;
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px;
+    border: none;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-panel {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #e7e7e7;
+    margin-bottom: 5px;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-panel-heading {
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-panels .vc_tta-panel-body {
+    padding: 20px;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-controls-icon {
+    height: 15px;
+    width: 15px;
+}
+
+.wpb-js-composer .vc_tta.vc_general.vc_tta-style-theme-accordion .vc_tta-controls-icon.vc_tta-controls-icon-chevron:before {
+    left: 3px;
+    right: 3px;
+    top: 3px;
+    bottom: 3px;
+    border-width: 0 3px 3px 0;
+    color: #4ac4f3;
+}
+
+.list-info {
+    color: #666666;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.list-info i {
+    background: #4ac4f3 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 15px;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 20px;
+    z-index: 1;
+}
+
+.list-info i:after {
+    background: #4ac4f3 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    height: 28px;
+    left: 0;
+    margin-left: -4px;
+    margin-top: -4px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 28px;
+    z-index: -1;
+}
+
+.features-items {
+    color: #666666;
+    display: block;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.features-items .icon {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.features-items .info {
+    display: table-cell;
+    padding-left: 5px;
+    vertical-align: top;
+}
+
+.features-items .info h4 {
+    margin-bottom: 10px;
+}
+
+.features-items .info p {
+    color: #666666;
+    margin: 0;
+}
+
+.features-items i {
+    background: #4ac4f3 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    float: left;
+    font-size: 12px;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 15px;
+    margin-top: 5px;
+    position: relative;
+    text-align: center;
+    width: 30px;
+    z-index: 1;
+}
+
+.features-items i:after {
+    background: #4ac4f3 none repeat scroll 0 0;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    left: 0;
+    margin-left: -5px;
+    margin-top: -5px;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    width: 40px;
+    z-index: -1;
+}
+
+.about-area .services-info {
+    margin-top: 0px;
+}
+
+@media(min-width: 992px) {
+    .about-area.primary-bg .services-info .item h4, .about-area.primary-bg .services-info .item p, .about-area.primary-bg .services-info .item i {
+        color: #ffffff;
+    }
+}
+
+@media (max-width: 992px) {
+    .about-area.primary-bg .services-info .item {
+        background-color: #ffffff;
+    }
+}
+
+/* pricing item */
+.pricing-item {
+    margin-bottom: 0px;
+}
+
+/* subscribe form */
+.subscribe-area .subscribe .input-group .form-control {
+    border: 1px solid #f1f1f1;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    box-shadow: inherit;
+    min-height: 60px;
+    padding-left: 20px;
+}
+
+.subscribe-area .input-group {
+    margin: 30px auto auto;
+    max-width: 450px;
+}
+
+.subscribe-area .subscribe .input-group .form-submit {
+    background: transparent;
+    border: medium none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 100%;
+    line-height: 60px;
+    position: absolute;
+    right: 0px;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 9;
+    font-size: 0px;
+}
+
+.subscribe-area .subscribe .input-group i {
+    background: #4ac4f3 none repeat scroll 0 0;
+    border: medium none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    height: 100%;
+    line-height: 60px;
+    position: absolute;
+    right: 0px;
+    text-align: center;
+    top: 0;
+    width: 60px;
+    height: 60px;
+    z-index: 8;
+}
+
+/* contact-forms */
+.contact-form input {
+    border: 1px solid #e7e7e7;
+    box-shadow: inherit;
+    color: #232323;
+}
+
+.contact-form textarea {
+    border: 1px solid #e7e7e7;
+    box-shadow: inherit;
+    min-height: 300px;
+    padding-top: 15px;
+}
+
+.contact-form .form-group.comments {
+    margin-bottom: 0;
+}
+
+.contact-form .submit-btn {
+    background: #4ac4f3 none repeat scroll 0 0;
+    border: medium none;
+    box-shadow: inherit;
+    color: #ffffff;
+    display: inline-block;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 10px 35px;
+    text-transform: uppercase;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    min-height: auto;
+}
+
+/* social icons */
+.address-items i {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #4ac4f3;
+    display: table-cell;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: top;
+    width: 30px;
+}
+
+.address-items span {
+    display: table-cell;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+/* social icons */
+.social-icons li {
+    display: inline-block;
+}
+
+.social-icons li a {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    color: #ffffff;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 2px;
+    text-align: center;
+    width: 40px;
+}
+
+.social-icons li.facebook a {
+    background-color: #3b5998;
+}
+
+.social-icons li.twitter a {
+    background-color: #00b6f1;
+}
+
+.social-icons li.pinterest a {
+    background-color: #bd081c;
+}
+
+.social-icons li.instagram a {
+    background-color: #cd486b;
+}
+
+.banner-area .content h1 b {
+    color: #4ac4f3;
+    font-weight: 700;
+}
+
+.wpb_single_image .vc_figure, .wpb_single_image .vc_single_image-wrapper {
+    display: block !important;
+}
+
+.features-items {
+    margin-bottom: 0px;
+}
+
+p.nocomments {
+    background: #222;
+    color: #fff;
+    padding: 25px;
+}
+
+.single p.nocomments {
+    margin-top: 50px;
+}
+
+.content-none-container {
+    text-align: center;
+}
+
+input.adminbar-input {
+    min-height: 31px;
+}
+
+.nt-shape.pos-top {
+    top: -1px;
+}
+.nt-shape.pos-bottom {
+    bottom: -1px;
+}
+.breadcrumb-area h1.hero-title.title-full {
+    white-space: inherit;
+    max-width: 950px;
+}

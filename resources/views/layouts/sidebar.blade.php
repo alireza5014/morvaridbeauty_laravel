@@ -5,6 +5,7 @@
             <div class="vz_navigation">
                 <ul class="sidebar nav flex-column">
                     <li class="active"><a class="nav-link text-center" href="{{route('user.home')}}" data-nav="dashboard"><i class="feather ft-home"></i><span>داشبورد</span></a></li>
+                    <li class="active"><a class="nav-link text-center" href="{{route('user.post.new')}}" data-nav="dashboard"><i class="feather ft-home"></i><span>جدید</span></a></li>
 
                     <li><a class="nav-link text-center" href="{{route('user.slider.list')}}" data-nav="ui_features"><i class="feather ft-gitlab"></i><span>  اسلایدر  </span></a></li>
 {{--                    <li><a class="nav-link text-center" href="{{route('user.price.list')}}" data-nav="ui_features"><i class="feather ft-gitlab"></i><span>  قیمت ها  </span></a></li>--}}

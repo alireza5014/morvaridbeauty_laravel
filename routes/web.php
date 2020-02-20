@@ -13,12 +13,23 @@
 
 use Illuminate\Support\Facades\Auth;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+
+
+
+
+Route::post('site/insert_message', 'Site\ContactsController@save')->name('insert_message');
+
+
+Route::get('/', 'Site\SiteController@home')->name('site_home');
+
+
+Route::get('/search', 'Site\SiteController@search')->name('search');
+Route::get('/blog/{category?}', 'Site\SiteController@blog')->name('blog');
+Route::get('/blog/{category}/{title}', 'Site\SiteController@content')->name('content');
+Route::get('/site/{page?}', 'Site\SiteController@page')->name('page');
+
 
 Auth::routes();
-
 
 
 Route::group(['prefix' => '/user'], function () {
@@ -35,8 +46,6 @@ Route::group(['prefix' => '/user'], function () {
         Route::get('/post/edit/{id}', 'User\PostController@edit')->name('user.post.edit');
         Route::post('/post/create', 'User\PostController@create')->name('user.post.create');
         Route::post('/post/edit/modify', 'User\PostController@modify')->name('user.post.modify');
-
-
 
 
         Route::get('/slider/list', 'User\SliderController@list')->name('user.slider.list');

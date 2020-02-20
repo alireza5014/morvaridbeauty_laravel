@@ -14,11 +14,83 @@ use Illuminate\Http\Request;
 */
 
 
-Route::group(['namespace'=>'Site', 'middleware' => ['origin']], function () {
+Route::group(['namespace' => 'Site', 'middleware' => ['origin']], function () {
+
+
+    Route::any('/register', function (Request $request) {
+
+
+        try {
+            $user = \App\User::create([
+                'name' => $request->name,
+                'email' => $request->email,
+                'password' => \Illuminate\Support\Facades\Hash::make($request->password),
+            ]);
+
+        } catch (Exception $exception) {
+            return response()->json(
+                [
+
+                    'status' => 0,
+                    'message' => $exception->getMessage(),
+                ]
+            );
+        }
+        return response()->json(
+            [
+                'user_id' => $user->id,
+                'status' => 1,
+                'message' => "register successfully",
+            ]
+        );
+
+    });
+
+
+    Route::any('/login', function (Request $request) {
+
+
+        try {
+            $user = \App\User::where('email', $request->email)
+//                ->where('password', \Illuminate\Support\Facades\Hash::make($request->password))
+                ->first();
+            if($user){
+                return response()->json(
+                    [
+                        'user_id' => $user->id,
+                        'status' => 1,
+                        'message' => "Login successfully",
+                    ]
+                );
+            }
+            else{
+                return response()->json(
+                    [
+
+                        'status' => 0,
+                        'message' => "Login unsuccessfully email or password incorrect",
+                    ]
+                );
+            }
+
+        } catch (Exception $exception) {
+            return response()->json(
+                [
+
+                    'status' => 0,
+                    'message' => $exception->getMessage(),
+                ]
+            );
+        }
+
+
+
+
+    });
+
 
     Route::any('/blog', "PostController@getBlog");
     Route::any('/slider', "SliderController@getSlider");
-
 
 
     Route::any('/tariffe', "TariffeController@getTariffe");

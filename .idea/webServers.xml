@@ -2,8 +2,8 @@
 <project version="4">
   <component name="WebServers">
     <option name="servers">
-      <webServer id="3d72c0a7-0248-4995-981c-653038b26067" name="37.220.26.157" url="http://37.220.26.157">
-        <fileTransfer host="37.220.26.157" port="22" rootFolder="/var/www/html/morvaridbeauty.ir/morvaridbeauty" accessType="SFTP">
+      <webServer id="3d72c0a7-0248-4995-981c-653038b26067" name="morvaridbeauty" url="http://194.5.193.108">
+        <fileTransfer host="194.5.193.108" port="22" rootFolder="/var/www/html/morvaridbeauty.ir/morvaridbeauty" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>

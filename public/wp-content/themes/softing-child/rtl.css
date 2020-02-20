@@ -1,0 +1,214 @@
+/*
+Theme Name: GosTaran Themes
+Description: Adds support for languages written in a Right To Left (RTL) direction.
+*/
+@font-face{
+    font-family: 'iranyekan';
+    src: url('fonts/iranyekanwebregular.eot');
+    src: url('fonts/iranyekanwebregular-.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('fonts/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/iranyekanwebregular.ttf') format('truetype');
+}
+
+@font-face{
+    font-family: 'tahoma';
+    src: url('fonts/iranyekanwebregular.eot');
+    src: url('fonts/iranyekanwebregular-.eot#iefix') format('embedded-opentype'), /* IE6-8 */
+    url('fonts/iranyekanwebregular.woff2') format('woff2'), /* FF39+,Chrome36+, Opera24+*/
+    url('fonts/iranyekanwebregular.woff') format('woff'), /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+    url('fonts/iranyekanwebregular.ttf') format('truetype');
+}
+@font-face {
+font-family: "aviny";
+src: url('fonts/aviny.ttf') format('truetype');
+}
+@font-face {
+	  font-family: "lalezar";
+	  src: url("fonts/LalezarRegular.ttf");
+}
+body {
+    font-family: iranyekan !important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: iranyekan !important;
+}
+.banner-area.normal-text .content h1 {
+    font-family: lalezar !important;
+}
+.btn {
+    font-family: iranyekan !important;
+}
+nav.navbar.bootsnav ul.nav > li > a {
+    letter-spacing: 0 !important;
+    font-family: iranyekan !important;
+}
+.navbar-right {
+    float: left !important;
+    margin-left: -15px;
+}
+.attr-nav {
+    float: left !important;
+    margin-right: 13px !important;
+}
+a {
+    font-family: iranyekan !important;
+}
+.banner-area .simple-video a {
+    float: right !important;
+}
+nav.navbar.bootsnav ul.navbar-right li.dropdown ul.dropdown-menu li a {
+    text-align: right !important;
+}
+.list-info i {
+    float: right !important;
+    margin-left: 15px !important;
+}
+.list-info {
+    font-family: iranyekan !important;
+}
+.features-area .item .info {
+    padding-right: 25px !important;
+}
+.pricing-item li {
+    font-family: iranyekan !important;
+}
+.team-area .info span {
+    font-family: iranyekan !important;
+}
+.text-left {
+    text-align: right !important;
+}
+.blog-area .info .meta li i {
+    margin-left: 5px !important;
+}
+.testimonial-items span {
+    font-family: iranyekan !important;
+}
+.carousel-indicators {
+    right: 50% !important;
+    padding-right: 0 !important;
+    margin-right: -30% !important;
+}
+.blog-area .item .thumb .post-type {
+    right: 20px !important;
+}
+.contact-form input {
+    direction: rtl;
+}
+.contact-form textarea {
+    direction: rtl;
+}
+.list-info {
+    letter-spacing: 0 !important;
+}
+.contact-form .submit-btn {
+    font-family: iranyekan !important;
+}
+.owl-carousel .owl-stage-outer {
+    direction: ltr;
+}
+.team-area .info {
+    left: 5% !important;
+}
+.features-items i {
+    margin-left: 15px !important;
+}
+.overview-area .overview-items .item .info {
+    direction: rtl;
+}
+#nt-sidebar .widget-title::before {
+    right: 35px !important;
+}
+#nt-sidebar .widget-title::after {
+    right: 0px !important;
+}
+.nt-sidebar-inner-search-button {
+    left: 6px !important;
+}
+.fa-long-arrow-alt-right::before {
+    content: "\f30a" !important;
+}
+.blog-area .item blockquote {
+    font-family: iranyekan !important;
+}
+.banner-area.small-text .content h1 {
+    font-family: lalezar !important;
+}
+.c-comments-1-avatar {
+    right: 0 !important;
+}
+#reply-title::before, #comments .page-post-2-title::before {
+    right: 35px !important;
+}
+#reply-title::after, #comments .page-post-2-title::after {
+    right: 0px !important;
+}
+.c-comments-1-item {
+    text-align: right !important;
+}
+.c-comments-1-item {
+    padding-right: 70px !important;
+}
+nav.navbar.bootsnav ul.nav > li.dropdown > a.dropdown-toggle::after {
+    margin-right: 5px !important;
+}
+.input-group .form-control {
+    text-align: right;
+}
+.wpcf7-response-output.wpcf7-validation-errors {
+    direction: rtl;
+    text-align: right;
+}
+.subscribe-area .subscribe .input-group i {
+    left: 0px !important;
+}
+.subscribe-area .subscribe .input-group .form-control {
+    direction: rtl;
+}
+.address-items span {
+    padding-right: 10px !important;
+}
+footer .f-item .address .info {
+    padding-right: 15px !important;
+}
+footer .f-item .address .info {
+    padding-right: 15px !important;
+}
+.comments-area, .blog-area.single .post-pagi-area {
+    direction: ltr;
+}
+#comments .page-post-2-title {
+    direction: rtl;
+}
+.post-tags span {
+	font-family: iranyekan !important;
+    margin-left: 15px !important;
+}
+.nt-theme-content:last-child, .page-post-2-tags:last-child, .page-post-2-comments:last-child, .page-post-2-comments-form:last-child {
+    direction: rtl;
+}
+nav.navbar.bootsnav ul.nav li.dropdown ul.dropdown-menu {
+    padding: 0 15px 0 0px !important;
+}
+@media (min-width:768px){.navbar-header{float:right}
+.navbar-nav > li {
+    float: right;
+}
+}
+@media (max-width: 1023px) {
+    nav.navbar.bootsnav li.dropdown a.dropdown-toggle:before {
+        font-weight: 900;
+        content: "\f104";
+        float: left;
+        font-size: 16px;
+        margin-right: 10px;
+    }
+}
+footer .footer-bottom p {
+    text-align: left;
+}
+.contact-form .submit-btn {
+    right: 0px;
+    position: absolute;
+}

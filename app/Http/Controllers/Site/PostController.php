@@ -23,7 +23,8 @@ class PostController extends Controller
 
     private function getPost($category_slug, $limit)
     {
-        $category = Category::where('slug', $category_slug)->with(['posts' => function ($q) use ($limit) {
+        $category = Category::where('slug', $category_slug)
+            ->with(['posts' => function ($q) use ($limit) {
             $content = 'updated_at';
             if ($limit == 1) {
                 $content = 'content';
@@ -61,7 +62,9 @@ class PostController extends Controller
             ->with('metas')
             ->where('slug', $post_slug)
             ->first();
-
+        if (!$post) {
+            return response()->json(['data' => [], 'meta' => []]);
+        }
 
         return response()->json(['data' => $post, 'meta' => $post->metas]);
     }

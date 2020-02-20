@@ -10,19 +10,17 @@ class SliderController extends Controller
 {
     public function getSlider()
     {
-        $slider= Slider::get();
+        $slider = Slider::get();
 
-        $slider->map(function ($q){
-if($q['id']==1){
-    $q['status']='active';
+        $slider->map(function ($q) {
+            if ($q['id'] == 1) {
+                $q['status'] = 'active';
 
-}
-else
-{
-    $q['status']='';
+            } else {
+                $q['status'] = '';
 
 
-}
+            }
         });
         return response()->json(['data' => $slider]);
 

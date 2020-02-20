@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form id="new_post" >
+
+</form>
+<button href="#" id="new_post_btn">submit</button>
+
+<script src="jquery.min.js"></script>
+
+<script>
+
+
+    $("#new_post_btn").on("click", function () {
+
+        $.ajax({
+            url: 'http://localhost/morvaridbeauty_laravel/public/api/mahdi',
+            method: 'POST',
+            // data: $('#new_post').serialize(),
+            success: function (data, textStatus, jqXHR) {
+
+                console.log(data);
+
+            },
+            error: function (error) {
+                console.log(error);
+
+
+            },
+
+            complete: function () {
+                console.log("complet");
+
+            }
+
+        });
+
+
+    })
+
+
+</script>
+</body>
+</html>
